@@ -1,0 +1,33 @@
+BACKUP ~ChangeRussianEETTerms/backup~
+
+AUTHOR ~p_zombie~
+
+VERSION ~0.01~
+
+BEGIN ~Change Some Names~
+
+ALTER_TLK BEGIN
+
+REPLACE_TEXTUALLY ~побережье Меча~ ~Побережье Меча~
+REPLACE_TEXTUALLY ~побережья Меча~ ~Побережья Меча~
+REPLACE_TEXTUALLY ~побережью Меча~ ~Побережью Меча~
+REPLACE_TEXTUALLY ~побережьем Меча~ ~Побережьем Меча~
+REPLACE_TEXTUALLY ~побережье меча~ ~Побережье Меча~
+REPLACE_TEXTUALLY ~побережья меча~ ~Побережья Меча~
+REPLACE_TEXTUALLY ~побережью меча~ ~Побережью Меча~
+REPLACE_TEXTUALLY ~побережьем меча~ ~Побережьем Меча~
+REPLACE_TEXTUALLY ~Ордена Сияющего Сердца~ ~Ордена Лучезарного Сердца~
+REPLACE_TEXTUALLY ~Ордене Сияющего Сердца~ ~Ордене Лучезарного Сердца~
+REPLACE_TEXTUALLY ~Ордену Сияющего Сердца~ ~Ордену Лучезарного Сердца~
+REPLACE_TEXTUALLY ~Орден Сияющего Сердца~ ~Орден Лучезарного Сердца~
+REPLACE_TEXTUALLY ~орден Лучезарного сердца~ ~Орден Лучезарного Сердца~
+REPLACE_TEXTUALLY ~ордена Лучезарного сердца~ ~Ордена Лучезарного Сердца~
+REPLACE_TEXTUALLY ~ордену Лучезарного сердца~ ~Ордену Лучезарного Сердца~
+REPLACE_TEXTUALLY ~ордене Лучезарного сердца~ ~Ордене Лучезарного Сердца~
+REPLACE_TEXTUALLY ~благороднейший Орден Лучезарного Сердца~ ~Благороднейший Орден Лучезарного Сердца~
+REPLACE_TEXTUALLY ~долины Ледяных Ветров~ ~Долины Ледяного Ветра~
+REPLACE_TEXTUALLY ~долине Ледяных Ветров~ ~Долине Ледяного Ветра~
+REPLACE_TEXTUALLY ~долину Ледяных Ветров~ ~Долину Ледяного Ветра~
+REPLACE_TEXTUALLY ~долина Ледяных Ветров~ ~Долина Ледяного Ветра~
+
+END
