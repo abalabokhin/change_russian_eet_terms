@@ -1,24 +1,21 @@
 BACKUP ~ChangeRussianEETTerms/backup~
 
-AUTHOR ~p_zombie~
+AUTHOR ~p_zombie and paladin84~
 
-VERSION ~0.01~
+VERSION ~0.02~
 
 BEGIN ~Change EET Russian Names~
 
+/* OUTER_PATCH_SAVE x ~долина ледяных Ветров долиной Ледяных Ветров.~ BEGIN
+  REPLACE_TEXTUALLY CASE_SENSITIVE ~\(Д\|д\)\(олин\(а\|ы\|е\|у\|ой\)\) \(Л\|л\)едяных \(В\|в\)етров~ ~Д\2 Ледяного Ветра~
+END
+PRINT ~%x%~
+*/
+
 ALTER_TLK BEGIN
 
-REPLACE_TEXTUALLY ~побережье Меча~ ~Побережье Меча~
-REPLACE_TEXTUALLY ~побережья Меча~ ~Побережья Меча~
-REPLACE_TEXTUALLY ~побережью Меча~ ~Побережью Меча~
-REPLACE_TEXTUALLY ~побережьем Меча~ ~Побережьем Меча~
-REPLACE_TEXTUALLY ~орден Лучезарного сердца~ ~Орден Лучезарного Сердца~
-REPLACE_TEXTUALLY ~ордена Лучезарного сердца~ ~Ордена Лучезарного Сердца~
-REPLACE_TEXTUALLY ~ордену Лучезарного сердца~ ~Ордену Лучезарного Сердца~
-REPLACE_TEXTUALLY ~ордене Лучезарного сердца~ ~Ордене Лучезарного Сердца~
-REPLACE_TEXTUALLY ~долины Ледяных Ветров~ ~Долины Ледяного Ветра~
-REPLACE_TEXTUALLY ~долине Ледяных Ветров~ ~Долине Ледяного Ветра~
-REPLACE_TEXTUALLY ~долину Ледяных Ветров~ ~Долину Ледяного Ветра~
-REPLACE_TEXTUALLY ~долина Ледяных Ветров~ ~Долина Ледяного Ветра~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(п\|П\)\(обережь\(е\|ем\|я\|ю\)\) \(М\|м\)еч\(а\|ей\)~ ~П\2 Меча~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(о\|О\)\(рден\(\|а\|у\|е\|ом\)\) \(Л\|л\)учезарного \(С\|с\)ердца~ ~О\2 Лучезарного Сердца~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(Д\|д\)\(олин\(а\|ы\|е\|у\|ой\)\) \(Л\|л\)едяных \(В\|в\)етров~ ~Д\2 Ледяного Ветра~
 
 END
