@@ -17,5 +17,6 @@ ALTER_TLK BEGIN
 REPLACE_TEXTUALLY CASE_SENSITIVE ~\(п\|П\)\(обережь\(е\|ем\|я\|ю\)\) \(М\|м\)еч\(а\|ей\)~ ~П\2 Меча~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~\(о\|О\)\(рден\(\|а\|у\|е\|ом\)\) \(Л\|л\)учезарного \(С\|с\)ердца~ ~О\2 Лучезарного Сердца~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~\(Д\|д\)\(олин\(а\|ы\|е\|у\|ой\)\) \(Л\|л\)едяных \(В\|в\)етров~ ~Д\2 Ледяного Ветра~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Малхоранд~ ~Мулхоранд~
 
 END
