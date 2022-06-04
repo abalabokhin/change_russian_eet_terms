@@ -26,15 +26,41 @@ REPLACE_TEXTUALLY CASE_SENSITIVE ~\(^\|…\|«\|»\|[-() \*!\?.,:;'"]\)Та\(е\
 //REPLACE_TEXTUALLY CASE_SENSITIVE ~\(^\|[-( \*!\?.,:;'"…«]\)Та\(е\|ем\|й\|ю\|я\)\($\|[-) \*!\?.,:;'"…»]\)~ ~\1Тэ\2\3~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~\(Т\|т\)\еневы\(е\|х\|м\|ми\) \(Д\|д\)руид\(ы\|ов\|ам\|ами\|ах\)~ ~Теневы\2 Друид\4~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~\(М\|м\)ор\(е\|ем\|я\|ю\) \(М\|м\)еч\(а\|ей\)~ ~Мор\2 Мечей~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Аянтис~ ~Аджантис~
+
+/* not tested code here
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(С\|с\)еверн\(ое\|ого\|ому\|ым\|ом\) \(Л\|л\)етоисчислени\(е\|я\|ю\|ем\|и\)~ ~Северн\2 Летоисчислени\4~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(С\|с\)овременн\(ое\|ого\|ому\|ым\|ом\) \(Л\|л\)етоисчислени\(е\|я\|ю\|ем\|и\)~ ~Современн\2 Летоисчислени\4~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(Л\|л\)етоисчислени\(е\|я\|ю\|ем\|и\) \(Д\|д\)олин~ ~Летоисчислени\2 Долин~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~л\. д\.~ ~ЛД~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(В\|в\)ерхней \(Д\|д\)олин\(ы\|е\|ой)~ ~Высокой Долин\3~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(В\|в\)ерхняя \(Д\|д\)олина~ ~Высокая Долина~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(В\|в\)ерхнюю \(Д\|д\)олину~ ~Высокую Долину~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(В\|в\)ит\(ая\|ой\|ую) \(Б\|б\)ашн\(я\|и\|е\|ю\|ей\)~ ~Спиральн\2 Башн\4~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(К\|к\)репост\(ь\|и\|ью) \(М\|м\)ногострел)~ ~Цитадел\2 Тысячи Стрел~
+
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Лоудвотер~ ~Шумные Воды~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Лоудвотера~ ~Шумных Вод~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Лоудвотеру~ ~Шумным Водам~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Лоудвотером~ ~Шумными Водами~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Лоудвотере~ ~Шумных Водах~
+
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(^\|…\|«\|»\|[-() \*!\?.,:;'"]\)\(Т\|т\)ринт\(\|а\|у\|ом\|е\)\($\|…\|«\|»\|[-() \*!\?.,:;'"]\)~ ~\1\2трент\3\4~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(Н\|н\)ижни\(е\|х\|м\|ми\) \(Г\|г\)ор\(\|ы\|ам\|ами\|ах\)~ ~Нетерски\2 Гор\4~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(К\|к\)репост\(ь\|и\|ью) \(В\|в\)орона)~ ~Цитадел\2 Ворона~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(П\|п\)редпустынны\(е\|х\|м\|ми\) \(Г\|г\)ор\(\|ы\|ам\|ами\|ах\)~ ~Гор\4 Устья Пустыни~
 
 
 
+
+
+*/
 
 END
 
-BEGIN ~Make some names subjectively beautiful again~
+/*BEGIN ~Make some names subjectively beautiful again~
 
 ALTER_TLK BEGIN
 REPLACE_TEXTUALLY CASE_SENSITIVE ~Аянтис~ ~Аджантис~
 
-END
+END*/
