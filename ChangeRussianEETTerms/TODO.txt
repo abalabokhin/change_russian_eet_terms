@@ -1,3 +1,2 @@
-1. Add variables, how was desribed here - https://arcanecoast.ru/forum/viewtopic.php?p=2196418#p2196418 - was
-beginning of the word and the end of the word
+1. Test with variables (WBB), (WBE)
 2. Add second component
