@@ -62,9 +62,22 @@ REPLACE_TEXTUALLY CASE_SENSITIVE ~%WBB%Антер\(\|а\|у\|ом\|е\)%WBE%~ ~\
 END
 
 
-/*BEGIN ~Change popular mistakes in translations of Russian modes to confirmed EET names~
+BEGIN ~Change popular mistakes in translations of Russian modes to confirmed EET names~
 
 ALTER_TLK BEGIN
-REPLACE_TEXTUALLY CASE_SENSITIVE ~Аянтис~ ~Аджантис~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Иреникус~ ~Айреникус~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Кэндлкип~ ~Кендлкип~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Аскатла~ ~Аткатла~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Горион~ ~Горайон~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Кхалид~ ~Халид~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Эл\(\|ь\)минст\(е\|э\)р~ ~Элминстер~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~%WBB%Ски%WBE%~ ~\1Скай\2~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Уотердип~ ~Вотердип~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Имоэн~ ~Имоен~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Ха\(е\|э\)р[ ]*\(\|'\|`\)[ ]*\(Д\|д\)алис~ ~Хаэр'Далис~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Сирик~ ~Цирик~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(К\|Х\|Кх\)ел\(\|ь\)бен~ ~Хелбен~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Арунсун~ ~Арунсан~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(М\|м\)ор\(е\|я\|ю\|ем\) \(П\|п\)авших \(З\|з\)в\(е\|ё\)зд~ ~Мор\2 Упавших Звёзд~
 
-END*/
+END
