@@ -4,7 +4,7 @@ AUTHOR ~p_zombie, paladin84 and klichko86~
 
 VERSION ~0.06~
 
-BEGIN ~Change EET Russian Names~
+BEGIN ~Change names from Si1ver BG2EE Russian translation to confirmed EET names~
 
 /*
 OUTER_PATCH_SAVE x ~Тай)ла ?Тай? ...*Тай! хватай! !тайцы…? -Таем- «тайцами. болтай "таец" «тайкой» запертая .Тай~ BEGIN
@@ -61,7 +61,8 @@ REPLACE_TEXTUALLY CASE_SENSITIVE ~%WBB%Антер\(\|а\|у\|ом\|е\)%WBE%~ ~\
 
 END
 
-/*BEGIN ~Make some names subjectively beautiful again~
+
+/*BEGIN ~Change popular mistakes in translations of Russian modes to confirmed EET names~
 
 ALTER_TLK BEGIN
 REPLACE_TEXTUALLY CASE_SENSITIVE ~Аянтис~ ~Аджантис~
