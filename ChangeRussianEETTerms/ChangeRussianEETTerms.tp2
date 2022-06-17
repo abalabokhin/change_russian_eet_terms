@@ -79,5 +79,6 @@ REPLACE_TEXTUALLY CASE_SENSITIVE ~Сирик~ ~Цирик~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~\(К\|Х\|Кх\)ел\(\|ь\)бен~ ~Хелбен~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~Арунсун~ ~Арунсан~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~\(М\|м\)ор\(е\|я\|ю\|ем\) \(П\|п\)авших \(З\|з\)в\(е\|ё\)зд~ ~Мор\2 Упавших Звёзд~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(о\|О\)\(рден\(\|а\|у\|е\|ом\)\) \(C\|c\)ияющего \(С\|с\)ердца~ ~О\2 Лучезарного Сердца~
 
 END
