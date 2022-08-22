@@ -2,7 +2,7 @@ BACKUP ~ChangeRussianEETTerms/backup~
 
 AUTHOR ~p_zombie, paladin84 and klichko86~
 
-VERSION ~0.07~
+VERSION ~0.08~
 
 BEGIN ~Change names from Si1ver BG2EE Russian translation to confirmed EET names~
 
@@ -80,5 +80,8 @@ REPLACE_TEXTUALLY CASE_SENSITIVE ~\(К\|Х\|Кх\)ел\(\|ь\)бен~ ~Хелб�
 REPLACE_TEXTUALLY CASE_SENSITIVE ~Арунсун~ ~Арунсан~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~\(М\|м\)ор\(е\|я\|ю\|ем\) \(П\|п\)авших \(З\|з\)в\(е\|ё\)зд~ ~Мор\2 Упавших Звёзд~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~\(о\|О\)\(рден\(\|а\|у\|е\|ом\)\) \(C\|c\)ияющего \(С\|с\)ердца~ ~О\2 Лучезарного Сердца~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Хельм~ ~Хелм~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~(Х\|х\)ельмит~ ~\1елмит~
+
 
 END
