@@ -81,7 +81,7 @@ REPLACE_TEXTUALLY CASE_SENSITIVE ~Арунсун~ ~Арунсан~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~\(М\|м\)ор\(е\|я\|ю\|ем\) \(П\|п\)авших \(З\|з\)в\(е\|ё\)зд~ ~Мор\2 Упавших Звёзд~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~\(о\|О\)\(рден\(\|а\|у\|е\|ом\)\) \(C\|c\)ияющего \(С\|с\)ердца~ ~О\2 Лучезарного Сердца~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~Хельм~ ~Хелм~
-REPLACE_TEXTUALLY CASE_SENSITIVE ~(Х\|х\)ельмит~ ~\1елмит~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(Х\|х\)ельмит~ ~\1елмит~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~Лолс~ ~Лолт~
 
 
