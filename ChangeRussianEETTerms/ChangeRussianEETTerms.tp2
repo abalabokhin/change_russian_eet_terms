@@ -2,7 +2,7 @@ BACKUP ~ChangeRussianEETTerms/backup~
 
 AUTHOR ~p_zombie, paladin84 and klichko86~
 
-VERSION ~0.08~
+VERSION ~0.09~
 
 BEGIN ~Change names from Si1ver BG2EE Russian translation to confirmed EET names~
 
@@ -48,7 +48,6 @@ REPLACE_TEXTUALLY CASE_SENSITIVE ~Лоудвотеру~ ~Шумным Водам
 REPLACE_TEXTUALLY CASE_SENSITIVE ~Лоудвотером~ ~Шумными Водами~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~Лоудвотере~ ~Шумных Водах~
 
-
 REPLACE_TEXTUALLY CASE_SENSITIVE ~%WBB%\(Т\|т\)ринт\(\|а\|у\|ом\|е\|ы\|ов\|ам\|ами\|ах\)%WBE%~ ~\1\2рент\3\4~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~\(К\|к\)репост\(ь\|и\|ью\) \(В\|в\)орона~ ~Цитадел\2 Ворона~
 
@@ -59,8 +58,12 @@ REPLACE_TEXTUALLY CASE_SENSITIVE ~\(Г\|г\)ор\(\|ы\|ам\|ами\|ах\) \(�
 REPLACE_TEXTUALLY CASE_SENSITIVE ~\(Р\|р\)авнин\(а\|ы\|е\|у\|ой\) \(Г\|г\)игантов~ ~Равнин\2 Великанов~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~%WBB%Антер\(\|а\|у\|ом\|е\)%WBE%~ ~\1Унтер\2\3~
 
-END
+REPLACE_TEXTUALLY CASE_SENSITIVE ~(Призывание)~ ~(Вызывание)~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~(Подчинение/призывание)~ ~(Призывание/вызывание)~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Подчинение)~ ~Призывание)~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(Ш\|ш\)кол\(а\|ы\|е\|у\|ой\) подчинения~ ~\1кол\2 призывания~
 
+END
 
 BEGIN ~Change popular mistakes in translations of Russian modes to confirmed EET names~
 
