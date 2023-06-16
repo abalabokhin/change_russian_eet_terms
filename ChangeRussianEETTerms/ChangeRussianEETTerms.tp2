@@ -86,6 +86,7 @@ REPLACE_TEXTUALLY CASE_SENSITIVE ~\(о\|О\)\(рден\(\|а\|у\|е\|ом\)\) \
 REPLACE_TEXTUALLY CASE_SENSITIVE ~Хельм~ ~Хелм~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~\(Х\|х\)ельмит~ ~\1елмит~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~Лолс~ ~Лолт~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(Д\|д\)ворф~ ~\1варф~
 
 
 END
