@@ -2,7 +2,7 @@ BACKUP ~ChangeRussianEETTerms/backup~
 
 AUTHOR ~p_zombie, paladin84 and klichko86~
 
-VERSION ~0.10~
+VERSION ~0.11~
 
 BEGIN ~Change names from Si1ver BG2EE Russian translation to confirmed EET names~
 
@@ -87,6 +87,8 @@ REPLACE_TEXTUALLY CASE_SENSITIVE ~Хельм~ ~Хелм~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~\(Х\|х\)ельмит~ ~\1елмит~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~Лолс~ ~Лолт~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~\(Д\|д\)ворф~ ~\1варф~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~\(Д\|д\)ворф~ ~\1варф~
+REPLACE_TEXTUALLY CASE_SENSITIVE ~Квэйл~ ~Квейл~
 
 
 END
