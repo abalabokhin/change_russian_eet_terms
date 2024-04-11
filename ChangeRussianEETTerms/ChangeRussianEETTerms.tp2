@@ -63,6 +63,7 @@ REPLACE_TEXTUALLY CASE_SENSITIVE ~(Подчинение/призывание)~ ~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~Подчинение)~ ~Призывание)~
 REPLACE_TEXTUALLY CASE_SENSITIVE ~\(Ш\|ш\)кол\(а\|ы\|е\|у\|ой\) подчинения~ ~\1кол\2 призывания~
 
+REPLACE_TEXTUALLY CASE_SENSITIVE ~холм\(ы\|ов\|ам\|ами\|ах\) Умар~ ~Холм\1 Умар~
 END
 
 BEGIN ~Change popular mistakes in translations of Russian modes to confirmed EET names~
